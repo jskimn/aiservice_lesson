@@ -2,6 +2,8 @@ import threading
 import time
 import subprocess
 
+
+
 class NvidiaSmiMonitor(threading.Thread):
     def __init__(self, interval=2):
         super().__init__()
